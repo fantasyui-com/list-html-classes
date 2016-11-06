@@ -4,7 +4,7 @@
   "description": "Node npm module used to parse HTML string and list the CSS classes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./test.js && echo PASS"
   },
   "repository": {
     "type": "git",
