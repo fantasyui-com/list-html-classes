@@ -4,19 +4,20 @@
   "description": "Node npm module used to parse HTML string and list the CSS classes.",
   "main": "index.js",
   "scripts": {
-    "test": "./test.js && echo PASS"
+    "test": "./test.js && echo PASS",
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fantasyui-com/list-html-classes.git"
   },
-  "author": "fantasyui-com",
+  "author": "fantasyui.com <fantasyui.com@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fantasyui-com/list-html-classes/issues"
   },
   "homepage": "https://github.com/fantasyui-com/list-html-classes#readme",
   "dependencies": {
-    "cheerio": "^0.22.0"
+    "cheerio": "^1.0.0-rc.10"
   }
 }
