@@ -1,6 +1,6 @@
 {
   "name": "list-html-classes",
-  "version": "1.17.0",
+  "version": "1.18.0",
   "description": "Node npm module used to parse HTML string and list the CSS classes.",
   "main": "index.js",
   "scripts": {
